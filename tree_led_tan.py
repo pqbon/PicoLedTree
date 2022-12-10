@@ -14,7 +14,7 @@ def tree_led_tan(count):
             tree.set_led(jdx,bright)
         bright = (math.sin(idx) + 1.0) * 0.5
         tree.star = bright
-        time.sleep(0.3)
+        time.sleep(0.25)
 
 if __name__ == '__main__':
     tree_led_tan(1000)
